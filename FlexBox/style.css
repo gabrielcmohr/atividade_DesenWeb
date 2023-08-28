@@ -20,7 +20,7 @@ header {
     color: white;
 }
 
-main{
+main.artigos {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -28,17 +28,45 @@ main{
     padding: 20px;
 }
 
-article.flex-item{
+main.principal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 1%;
+}
+
+article.item-principal {
+    border: 1px solid #000000;
+    text-align: center;
+    width: 49%;
+}
+
+article.itens-principais {
+    border: 1px solid #000000;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    width: 49%;
+}
+
+strong {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+article.flex-item {
     flex: 1;
     border: 1px solid #000000;
     padding: 1rem;
-    min-height: 265px;
 }
 
-footer{
+footer {
     background-color: var(--cor-principal);
     padding: 1rem;
     text-align: center;
     color: white;
-    margin-top: 17.33%;
+    margin-top: 10.95%;
 }
