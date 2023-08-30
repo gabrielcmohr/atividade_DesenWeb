@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap');
 
 :root {
-    --cor-principal: #58731F;
+    --cor-principal: #000;
     --fonte-principal: 'Bricolage Grotesque', sans-serif;
 }
 
@@ -61,6 +61,7 @@ article.flex-item {
     flex: 1;
     border: 1px solid #000000;
     padding: 1rem;
+    min-width: 265px;
 }
 
 footer {
